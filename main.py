@@ -1,5 +1,6 @@
 import requests
 import bs4
+import tinydb
 
 sites = [
     "https://www.swerk-wue.de/bamberg/essen-trinken/mensen-speiseplaene/mensa-austrasse-bamberg/menu",
@@ -14,6 +15,8 @@ handler.setFormatter(Logfmter())
 logging.basicConfig(handlers=[handler], level=logging.DEBUG)
 
 logger = logging.getLogger("mensa_scraper")
+
+database = tinydb.TinyDB("day_menu_entries.json")
 
 def get_site_content(url):
     logger.debug("Fetching site content...", extra={"url": url})
@@ -30,7 +33,7 @@ def get_day_menus_html(content):
     return day_menus
 
 class DayMenuEntry:
-    def __init__(self, date_text, data_day, data_dispo, data_type_title, data_price_student, is_climate_plate, co2_per_serving_text, date, co2_per_serving_int, title):
+    def __init__(self, date_text, data_day, data_dispo, data_type_title, data_price_student, is_climate_plate, co2_per_serving_text, date, co2_per_serving_int, title, scrape_datetime):
         self.date_text = date_text
         self.date = date
         self.data_day = data_day
@@ -41,6 +44,7 @@ class DayMenuEntry:
         self.co2_per_serving = co2_per_serving_text
         self.co2_per_serving_int = co2_per_serving_int
         self.title = title
+        self.scrape_datetime = scrape_datetime
 
     def __repr__(self):
         return (f"DayMenuEntry("
@@ -53,7 +57,8 @@ class DayMenuEntry:
                 f"is_climate_plate={self.is_climate_plate}, "
                 f"co2_per_serving={self.co2_per_serving}, "
                 f"co2_per_serving_int={self.co2_per_serving_int}, "
-                f"title={self.title}"
+                f"title={self.title}, "
+                f"scrape_datetime={self.scrape_datetime}, "
                 f")")
 
 def parse_day_menu(html):
@@ -118,8 +123,6 @@ def parse_day_menu(html):
             co2_per_serving_int = int(co2_per_serving_text.replace(" g", ""))
             logger.debug("Converted CO2 text to int.", extra={"co2_per_serving_text": co2_per_serving_text, "co2_per_serving_int": co2_per_serving_int})
 
-
-
         entry = DayMenuEntry(
             date_text=date,
             data_day=data_day,
@@ -130,7 +133,8 @@ def parse_day_menu(html):
             co2_per_serving_text=co2_per_serving_text,
             date=date,
             co2_per_serving_int=co2_per_serving_int if co2_element else None,
-            title=title
+            title=title,
+            scrape_datetime=datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         )
         day_menu_entries.append(entry)
 
@@ -154,6 +158,19 @@ def main():
             "Title": entry.title,
             "Diet": entry.data_type_title,
             "CO2": entry.co2_per_serving_int,
+        })
+
+        database.insert({
+            "date_text": entry.date_text,
+            "date": entry.date,
+            "data_day": entry.data_day,
+            "data_dispo": entry.data_dispo,
+            "data_type_title": entry.data_type_title,
+            "data_price_student": entry.data_price_student,
+            "is_climate_plate": entry.is_climate_plate,
+            "co2_per_serving_text": entry.co2_per_serving,
+            "co2_per_serving_int": entry.co2_per_serving_int,
+            "title": entry.title,
         })
 
 # Press the green button in the gutter to run the script.
