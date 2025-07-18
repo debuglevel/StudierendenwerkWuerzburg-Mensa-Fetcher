@@ -1,6 +1,7 @@
 import requests
 import bs4
 import tinydb
+import csv
 
 sites = [
     "https://www.swerk-wue.de/bamberg/essen-trinken/mensen-speiseplaene/mensa-austrasse-bamberg/menu",
@@ -143,6 +144,18 @@ def parse_day_menu(html):
     logger.debug("Finished parsing day menu HTML.", extra={"count": len(day_menu_entries)})
     return day_menu_entries
 
+def convert_database_to_csv():
+    logger.debug("Converting database to CSV...")
+    all_entries = database.all()
+    csv_file = "day_menu_entries.csv"
+
+    with open(csv_file, mode="w", newline="", encoding="utf-8") as file:
+        writer = csv.DictWriter(file, fieldnames=all_entries[0].keys())
+        writer.writeheader()
+        writer.writerows(all_entries)
+
+    logger.debug("Converted database to CSV.", extra={"csv_file": csv_file})
+
 def main():
     all_entries = []
 
@@ -172,6 +185,8 @@ def main():
             "co2_per_serving_int": entry.co2_per_serving_int,
             "title": entry.title,
         })
+
+    convert_database_to_csv()
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
