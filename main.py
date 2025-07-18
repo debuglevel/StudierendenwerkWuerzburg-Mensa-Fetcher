@@ -37,10 +37,10 @@ class DayMenuEntry:
     def __init__(self, date_text, data_day, data_dispo, data_type_title, data_price_student, is_climate_plate, co2_per_serving_text, date, co2_per_serving_int, title, scrape_datetime):
         self.date_text = date_text
         self.date = date
-        self.data_day = data_day
+        self.day_in_year = data_day
         self.data_dispo = data_dispo
-        self.data_type_title = data_type_title
-        self.data_price_student = data_price_student
+        self.diet = data_type_title
+        self.price_student = data_price_student
         self.is_climate_plate = is_climate_plate
         self.co2_per_serving = co2_per_serving_text
         self.co2_per_serving_int = co2_per_serving_int
@@ -51,10 +51,10 @@ class DayMenuEntry:
         return (f"DayMenuEntry("
                 f"date_text={self.date_text}, "
                 f"date={self.date}, "
-                f"data_day={self.data_day}, "
+                f"day_in_year={self.day_in_year}, "
                 f"data_dispo={self.data_dispo}, "
-                f"data_type_title={self.data_type_title}, "
-                f"data_price_student={self.data_price_student}, "
+                f"diet={self.diet}, "
+                f"price_student={self.price_student}, "
                 f"is_climate_plate={self.is_climate_plate}, "
                 f"co2_per_serving={self.co2_per_serving}, "
                 f"co2_per_serving_int={self.co2_per_serving_int}, "
@@ -150,7 +150,7 @@ def convert_database_to_csv():
     csv_file = "day_menu_entries.csv"
 
     with open(csv_file, mode="w", newline="", encoding="utf-8") as file:
-        writer = csv.DictWriter(file, fieldnames=all_entries[0].keys())
+        writer = csv.DictWriter(file, fieldnames=all_entries[0].keys(), delimiter=';')
         writer.writeheader()
         writer.writerows(all_entries)
 
@@ -169,21 +169,22 @@ def main():
     for entry in all_entries:
         logger.debug("Dumping Day Menu Entry...", extra={
             "Title": entry.title,
-            "Diet": entry.data_type_title,
+            "Diet": entry.diet,
             "CO2": entry.co2_per_serving_int,
         })
 
         database.insert({
             "date_text": entry.date_text,
             "date": entry.date,
-            "data_day": entry.data_day,
+            "day_in_year": entry.day_in_year,
             "data_dispo": entry.data_dispo,
-            "data_type_title": entry.data_type_title,
-            "data_price_student": entry.data_price_student,
+            "diet": entry.diet,
+            "price_student": entry.price_student,
             "is_climate_plate": entry.is_climate_plate,
             "co2_per_serving_text": entry.co2_per_serving,
             "co2_per_serving_int": entry.co2_per_serving_int,
             "title": entry.title,
+            "scrape_datetime": entry.scrape_datetime,
         })
 
     convert_database_to_csv()
