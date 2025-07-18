@@ -29,10 +29,132 @@ def get_day_menus_html(content):
     logger.debug(f"Got day menus HTML.", extra={"count": len(day_menus)})
     return day_menus
 
+class DayMenuEntry:
+    def __init__(self, date_text, data_day, data_dispo, data_type_title, data_price_student, is_climate_plate, co2_per_serving_text, date, co2_per_serving_int, title):
+        self.date_text = date_text
+        self.date = date
+        self.data_day = data_day
+        self.data_dispo = data_dispo
+        self.data_type_title = data_type_title
+        self.data_price_student = data_price_student
+        self.is_climate_plate = is_climate_plate
+        self.co2_per_serving = co2_per_serving_text
+        self.co2_per_serving_int = co2_per_serving_int
+        self.title = title
+
+    def __repr__(self):
+        return (f"DayMenuEntry("
+                f"date_text={self.date_text}, "
+                f"date={self.date}, "
+                f"data_day={self.data_day}, "
+                f"data_dispo={self.data_dispo}, "
+                f"data_type_title={self.data_type_title}, "
+                f"data_price_student={self.data_price_student}, "
+                f"is_climate_plate={self.is_climate_plate}, "
+                f"co2_per_serving={self.co2_per_serving}, "
+                f"co2_per_serving_int={self.co2_per_serving_int}, "
+                f"title={self.title}"
+                f")")
+
+def parse_day_menu(html):
+    logger.debug("Parsing day menu HTML...")
+    soup = bs4.BeautifulSoup(html, "html.parser")
+    day_menu_entries = []
+
+    logger.debug("Finding day menu div...")
+    day_menu_div = soup.find("div", class_="day-menu")
+
+    logger.debug("Extracting date_text...")
+    date = day_menu_div.find("h3").text.strip()
+    logger.debug("Extracted date_text.", extra={"date_text": date})
+
+    # data-day is the day of the year, 0-based.
+    logger.debug("Extracting data-day...")
+    data_day = day_menu_div.get("data-day")
+    logger.debug("Extracted data-day.", extra={"data_day": data_day})
+
+    logger.debug("Converting data-day to date...")
+    from datetime import datetime, timedelta
+    base_date = datetime(datetime.now().year, 1, 1)
+    date = base_date + timedelta(days=int(data_day))
+    date = date.strftime("%Y-%m-%d")
+    logger.debug("Converted data-day to date.", extra={"date": date})
+
+    logger.debug("Extracting individual menu entries...")
+    articles = day_menu_div.find_all("article")
+    logger.debug(f"Extracted individual menu entries.", extra={"count": len(articles)})
+
+    for article in articles:
+        logger.debug("Processing article...")
+
+        logger.debug("Extracting title...")
+        title = article.find("h5").text.strip()
+        logger.debug("Extracted title.", extra={"title": title})
+
+        logger.debug("Extracting data-dispo...")
+        data_dispo = article.get("data-dispo")
+        logger.debug("Extracted data-dispo.", extra={"data_dispo": data_dispo})
+
+        logger.debug("Extracting data-type-title...")
+        data_type_title = article.find("span", class_="food-icon").get("data-type-title")
+        logger.debug("Extracted data-type-title.", extra={"data_type_title": data_type_title})
+
+        logger.debug("Extracting data-price-student...")
+        data_price_student = article.find("div", class_="price").get("data-price-student")
+        logger.debug("Extracted data-price-student.", extra={"data_price_student": data_price_student})
+
+        logger.debug("Checking for climate plate...")
+        is_climate_plate = article.find("span", class_="climate-plate") is not None
+        logger.debug("Checked for climate plate.", extra={"is_climate_plate": is_climate_plate})
+
+        logger.debug("Extracting CO2 per serving...")
+        co2_element = article.find("div", class_="co2-per-serving")
+        co2_per_serving_text = None
+        if co2_element:
+            co2_per_serving_text = co2_element.find("span").text.strip()
+            logger.debug("Extracted CO2 per serving.", extra={"co2_per_serving_text": co2_per_serving_text})
+
+            logger.debug("Converting CO2 text to int...", extra={"co2_per_serving_text": co2_per_serving_text})
+            co2_per_serving_int = int(co2_per_serving_text.replace(" g", ""))
+            logger.debug("Converted CO2 text to int.", extra={"co2_per_serving_text": co2_per_serving_text, "co2_per_serving_int": co2_per_serving_int})
+
+
+
+        entry = DayMenuEntry(
+            date_text=date,
+            data_day=data_day,
+            data_dispo=data_dispo,
+            data_type_title=data_type_title,
+            data_price_student=data_price_student,
+            is_climate_plate=is_climate_plate,
+            co2_per_serving_text=co2_per_serving_text,
+            date=date,
+            co2_per_serving_int=co2_per_serving_int if co2_element else None,
+            title=title
+        )
+        day_menu_entries.append(entry)
+
+        logger.debug("Processed article.", extra={"entry": entry})
+
+    logger.debug("Finished parsing day menu HTML.", extra={"count": len(day_menu_entries)})
+    return day_menu_entries
+
 def main():
+    all_entries = []
+
     for site in sites:
         content = get_site_content(site)
         day_menus_html = get_day_menus_html(content)
+        for day_menu_html in day_menus_html:
+            entries = parse_day_menu(day_menu_html)
+            all_entries.extend(entries)
+
+    for entry in all_entries:
+        logger.debug("Dumping Day Menu Entry...", extra={
+            "Title": entry.title,
+            "Diet": entry.data_type_title,
+            "CO2": entry.co2_per_serving_int,
+        })
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
