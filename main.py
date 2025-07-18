@@ -4,8 +4,8 @@ import tinydb
 import csv
 
 sites = [
-    "https://www.swerk-wue.de/bamberg/essen-trinken/mensen-speiseplaene/mensa-austrasse-bamberg/menu",
-    "https://www.swerk-wue.de/bamberg/essen-trinken/mensen-speiseplaene/mensa-feldkirchenstrasse-bamberg/menu",
+    {"id": "Austrasse", "url": "https://www.swerk-wue.de/bamberg/essen-trinken/mensen-speiseplaene/mensa-austrasse-bamberg/menu"},
+    {"id": "Feki", "url": "https://www.swerk-wue.de/bamberg/essen-trinken/mensen-speiseplaene/mensa-feldkirchenstrasse-bamberg/menu"},
 ]
 
 import logging
@@ -34,7 +34,20 @@ def get_day_menus_html(content):
     return day_menus
 
 class DayMenuEntry:
-    def __init__(self, date_text, data_day, data_dispo, data_type_title, data_price_student, is_climate_plate, co2_per_serving_text, date, co2_per_serving_int, title, scrape_datetime):
+    def __init__(self,
+                 date_text,
+                 data_day,
+                 data_dispo,
+                 data_type_title,
+                 data_price_student,
+                 is_climate_plate,
+                 co2_per_serving_text,
+                 date,
+                 co2_per_serving_int,
+                 title,
+                 scrape_datetime,
+                 site_id
+                 ):
         self.date_text = date_text
         self.date = date
         self.day_in_year = data_day
@@ -46,6 +59,7 @@ class DayMenuEntry:
         self.co2_per_serving_int = co2_per_serving_int
         self.title = title
         self.scrape_datetime = scrape_datetime
+        self.site_id = site_id
 
     def __repr__(self):
         return (f"DayMenuEntry("
@@ -60,9 +74,10 @@ class DayMenuEntry:
                 f"co2_per_serving_int={self.co2_per_serving_int}, "
                 f"title={self.title}, "
                 f"scrape_datetime={self.scrape_datetime}, "
+                f"site_id={self.site_id}, "
                 f")")
 
-def parse_day_menu(html):
+def parse_day_menu(html, site_id):
     logger.debug("Parsing day menu HTML...")
     soup = bs4.BeautifulSoup(html, "html.parser")
     day_menu_entries = []
@@ -136,6 +151,7 @@ def parse_day_menu(html):
             co2_per_serving_int=co2_per_serving_int if co2_element else None,
             title=title,
             scrape_datetime=datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            site_id=site_id,
         )
         day_menu_entries.append(entry)
 
@@ -160,10 +176,10 @@ def main():
     all_entries = []
 
     for site in sites:
-        content = get_site_content(site)
+        content = get_site_content(site["url"])
         day_menus_html = get_day_menus_html(content)
         for day_menu_html in day_menus_html:
-            entries = parse_day_menu(day_menu_html)
+            entries = parse_day_menu(day_menu_html, site["id"])
             all_entries.extend(entries)
 
     for entry in all_entries:
@@ -185,6 +201,7 @@ def main():
             "co2_per_serving_int": entry.co2_per_serving_int,
             "title": entry.title,
             "scrape_datetime": entry.scrape_datetime,
+            "site_id": entry.site_id,
         })
 
     convert_database_to_csv()
