@@ -17,7 +17,7 @@ logging.basicConfig(handlers=[handler], level=logging.DEBUG)
 
 logger = logging.getLogger("mensa_scraper")
 
-database = tinydb.TinyDB("day_menu_entries.json")
+database = tinydb.TinyDB("day_menu_entries.json", sort_keys=True, indent=2, separators=(',', ': '))
 
 def get_site_content(url):
     logger.debug("Fetching site content...", extra={"url": url})
