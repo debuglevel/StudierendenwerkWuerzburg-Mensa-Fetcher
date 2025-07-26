@@ -172,6 +172,32 @@ def convert_database_to_csv():
 
     logger.debug("Converted database to CSV.", extra={"csv_file": csv_file})
 
+def remove_duplicates():
+    # TODO: Would probably be nicer if they were not inserted in the first place.
+    logger.debug("Removing duplicate entries from the database...")
+
+    logger.debug("Fetching all entries from the database...")
+    entries = database.all()
+    logger.debug(f"Fetched all entries from the database.", extra={"count": len(entries)})
+
+    unique_entries = {}
+
+    logger.debug("Identifying unique entries...")
+    for entry in entries:
+        # Create a unique key based on all fields except scrape_datetime
+        unique_key = tuple((key, value) for key, value in entry.items() if key != "scrape_datetime")
+        if unique_key not in unique_entries:
+            unique_entries[unique_key] = entry
+    logger.debug(f"Identified unique entries.", extra={"unique_count": len(unique_entries)})
+
+    logger.debug("Clearing database...")
+    database.truncate()
+
+    logger.debug("Inserting unique entries back into the database...")
+    database.insert_multiple(unique_entries.values())
+
+    logger.debug("Removed duplicates.", extra={"original_count": len(entries), "unique_count": len(unique_entries)})
+
 def main():
     all_entries = []
 
@@ -203,6 +229,8 @@ def main():
             "scrape_datetime": entry.scrape_datetime,
             "site_id": entry.site_id,
         })
+
+    remove_duplicates()
 
     convert_database_to_csv()
 
