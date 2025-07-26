@@ -1,0 +1,217 @@
+co2_per_serving_int;co2_per_serving_text;data_dispo;date;date_text;day_in_year;diet;is_climate_plate;price_student;scrape_datetime;site_id;title
+382;382 g;636900;2025-07-18;2025-07-18;198;Vegan;True;2,80;2025-07-18 14:13:56;Austrasse;Spicy Masala Hot Pot -Beilage extra-
+574;574 g;628994;2025-07-23;2025-07-23;203;Fleischlos;False;2,80;2025-07-18 14:13:56;Austrasse;mensaVital: Ofenkartoffeln mit Kräuterdip und Currygemüse
+283;283 g;629676;2025-07-29;2025-07-29;209;Vegan;True;3,10;2025-07-26 10:55:43;Austrasse;mensaVital: Tagliatelle mit Lauch - Creme - Soße und gehackten Walnüssen
+888;888 g;629670;2025-07-29;2025-07-29;209;Gefluegel;False;4,75;2025-07-26 10:55:43;Austrasse;Kebabteller vom Maishähnchen
+675;675 g;629664;2025-07-29;2025-07-29;209;Fleischlos;False;2,60;2025-07-26 10:55:43;Austrasse;Polenta mit Spinat und Mozzarella
+636;636 g;629706;2025-07-30;2025-07-30;210;Vegan;True;2,80;2025-07-26 10:55:43;Austrasse;mensaVital: Kichererbsen - Gemüse - Curry mit Basmatireis
+376;376 g;629700;2025-07-30;2025-07-30;210;Vegan;True;4,10;2025-07-26 10:55:43;Austrasse;Spicy Asia Burger
+1040;1040 g;629682;2025-07-30;2025-07-30;210;Gefluegel;False;3,80;2025-07-26 10:55:43;Austrasse;Maishähnchenkeule mit Ingwer und Chili
+375;375 g;629736;2025-07-31;2025-07-31;211;Vegan;True;3,10;2025-07-26 10:55:43;Austrasse;Bunte Gemüse Ebly - Pfanne
+798;798 g;629724;2025-07-31;2025-07-31;211;Fleischlos;True;3,35;2025-07-26 10:55:43;Austrasse;Kartoffelgnocchi - Gemüsepfanne mit Sahnesoße
+1359;1359 g;629718;2025-07-31;2025-07-31;211;Gefluegel;False;3,35;2025-07-26 10:55:43;Austrasse;Maishähnchenbrust im Panko - Mantel
+1547;1547 g;629778;2025-08-01;2025-08-01;212;Vegan;False;3,80;2025-07-26 10:55:43;Austrasse;Vegane Chili Cheese fries
+2923;2923 g;628980;2025-07-23;2025-07-23;203;Schwein;False;3,80;2025-07-18 14:13:56;Austrasse;"Schweinerückensteak ""Berner Art"""
+429;429 g;629772;2025-08-01;2025-08-01;212;Vegan;True;3,35;2025-07-26 10:55:43;Austrasse;Falafelbällchen auf Couscous Gemüse
+498;498 g;629760;2025-08-01;2025-08-01;212;Fleischlos;True;2,35;2025-07-26 10:55:43;Austrasse;"Spaghetti ""Arrabbiata"" - Vegan möglich"
+363;363 g;629826;2025-08-04;2025-08-04;215;Vegan;True;4,45;2025-07-26 10:55:43;Austrasse;"Spaghetti ""Pfifferlinge & Kirschtomaten"""
+247;247 g;629814;2025-08-04;2025-08-04;215;Vegan;True;3,35;2025-07-26 10:55:43;Austrasse;Süßkartoffel - Amaranth - Bratling mit Tomatensalsa
+1352;1352 g;629790;2025-08-04;2025-08-04;215;Schwein;False;3,65;2025-07-26 10:55:43;Austrasse;Cordon bleu vom Schwein
+310;310 g;629862;2025-08-05;2025-08-05;216;Vegan;True;4,10;2025-07-26 10:55:43;Austrasse;Crunchy Vegan Burger
+797;797 g;629838;2025-08-05;2025-08-05;216;Schwein;False;3,10;2025-07-26 10:55:43;Austrasse;Currywurst
+407;407 g;629832;2025-08-05;2025-08-05;216;Vegan;True;2,80;2025-07-26 10:55:43;Austrasse;Mango - Couscouspfanne mit Gemüse, Koriander und Minzdip
+325;325 g;629910;2025-08-06;2025-08-06;217;Fleischlos;True;4,85;2025-07-26 10:55:43;Austrasse;Riesenrösti mit Gemüse - Pfifferlingragout - Vegan möglich
+626;626 g;629892;2025-08-06;2025-08-06;217;Vegan;True;2,80;2025-07-26 10:55:43;Austrasse;mensaVital: Kichererbsen - Gemüse - Curry mit Basmatireis
+351;351 g;628966;2025-07-23;2025-07-23;203;Vegan;False;2,60;2025-07-18 14:13:56;Austrasse;Bunte Kartoffel - Gemüsepfanne
+2524;2524 g;629880;2025-08-06;2025-08-06;217;Schwein;False;4,85;2025-07-26 10:55:43;Austrasse;Holzfällersteak mit Speck, Zwiebeln und Champignons
+370;370 g;629940;2025-08-07;2025-08-07;218;Vegan;True;2,35;2025-07-26 10:55:43;Austrasse;mensaVital: Vollkornspaghetti mit Bolognese von roten Linsen
+1209;1209 g;629934;2025-08-07;2025-08-07;218;Fleischlos;False;3,10;2025-07-26 10:55:43;Austrasse;Dampfkartoffeln mit hausgemachtem Schnittlauchquark
+2159;2159 g;629928;2025-08-07;2025-08-07;218;Rind;False;4,85;2025-07-26 10:55:43;Austrasse;Cheese Burger
+508;508 g;629988;2025-08-08;2025-08-08;219;Fleischlos;False;4,10;2025-07-26 10:55:43;Austrasse;Ravioli Ricotta é Rucola an Tomatenrahmsoße
+459;459 g;629976;2025-08-08;2025-08-08;219;Vegan;True;3,80;2025-07-26 10:55:43;Austrasse;Glasnudelsalat mit Tofu und Erdnussdressing
+442;442 g;629958;2025-08-08;2025-08-08;219;Vegan;True;3,10;2025-07-26 10:55:43;Austrasse;Gebackene Kartoffelspiralen mit Barbecue - Dip
+469;469 g;629639;2025-07-28;2025-07-28;208;Vegan;True;3,10;2025-07-26 10:55:45;Feki;mensaVital: Asiatische Gemüsepfanne mit Tofu und Glasnudeln
+1720;1720 g;629633;2025-07-28;2025-07-28;208;Gefluegel;False;3,80;2025-07-26 10:55:45;Feki;Maishähnchenbrustfilet mit Rahmsoße
+221;221 g;629615;2025-07-28;2025-07-28;208;Vegan;True;2,60;2025-07-26 10:55:45;Feki;Veganes Linsen - Curry - Dal mit Karotten und Ingwer
+349;349 g;629036;2025-07-24;2025-07-24;204;Vegan;True;2,60;2025-07-18 14:13:56;Austrasse;"Kokos - Gemüsecurry ""Thai - Style"""
+1372;1372 g;629669;2025-07-29;2025-07-29;209;Gefluegel;False;4,75;2025-07-26 10:55:45;Feki;Kebabteller vom Maishähnchen
+693;693 g;629663;2025-07-29;2025-07-29;209;Fleischlos;False;2,60;2025-07-26 10:55:45;Feki;Polenta mit Spinat und Mozzarella
+362;362 g;629645;2025-07-29;2025-07-29;209;Vegan;True;2,80;2025-07-26 10:55:45;Feki;"Vegane Currywurst ""Classic Style"""
+194;194 g;629711;2025-07-30;2025-07-30;210;Vegan;True;3,10;2025-07-26 10:55:45;Feki;Grünkohl - Hanfbratling mit Salatgarnitur
+1208;1208 g;629693;2025-07-30;2025-07-30;210;Fleischlos;False;3,10;2025-07-26 10:55:45;Feki;Dampfkartoffeln mit hausgemachtem Schnittlauchquark
+1040;1040 g;629681;2025-07-30;2025-07-30;210;Gefluegel;False;3,80;2025-07-26 10:55:45;Feki;Maishähnchenkeule mit Ingwer und Chili
+378;378 g;629735;2025-07-31;2025-07-31;211;Vegan;True;3,10;2025-07-26 10:55:45;Feki;Bunte Gemüse Ebly - Pfanne
+385;385 g;629729;2025-07-31;2025-07-31;211;Fleischlos;True;4,85;2025-07-26 10:55:45;Feki;"Sautierte Pfifferlinge mit Wellenbandnudeln ""AOP Style"""
+1360;1360 g;629717;2025-07-31;2025-07-31;211;Gefluegel;False;3,35;2025-07-26 10:55:45;Feki;Maishähnchenbrust im Panko - Mantel
+1457;1457 g;629783;2025-08-01;2025-08-01;212;Fisch;False;5,15;2025-07-26 10:55:45;Feki;mensaVital: Seelachs in der Kräutereihülle auf Dijon - Senfsoße und Möhrengemüse, dazu Kartoffeln
+261;261 g;629029;2025-07-24;2025-07-24;204;Vegan;True;3,35;2025-07-18 14:13:56;Austrasse;Gefüllte vegane Paprikaschote mit Tomatensoße
+498;498 g;629759;2025-08-01;2025-08-01;212;Fleischlos;True;2,35;2025-07-26 10:55:45;Feki;"Spaghetti ""Arrabbiata"" - Vegan möglich"
+1431;1431 g;629753;2025-08-01;2025-08-01;212;Gefluegel;False;3,80;2025-07-26 10:55:45;Feki;Geschnetzeltes von der Maishähnchenbrust in Rahm
+248;248 g;629813;2025-08-04;2025-08-04;215;Vegan;True;3,35;2025-07-26 10:55:45;Feki;Süßkartoffel - Amaranth - Bratling mit Tomatensalsa
+601;601 g;629807;2025-08-04;2025-08-04;215;Fleischlos;True;3,10;2025-07-26 10:55:45;Feki;"Gebackene Kartoffeltaschen ""Kräuterfrischkäse"" mit Salatgarnitur"
+1352;1352 g;629789;2025-08-04;2025-08-04;215;Schwein;False;3,65;2025-07-26 10:55:45;Feki;Cordon bleu vom Schwein
+1412;1412 g;629849;2025-08-05;2025-08-05;216;Fleischlos;False;3,80;2025-07-26 10:55:45;Feki;Käsespätzle mit Röstzwiebeln
+1204;1204 g;629843;2025-08-05;2025-08-05;216;Gefluegel;False;4,45;2025-07-26 10:55:45;Feki;Putenpfanne Peking
+420;420 g;629831;2025-08-05;2025-08-05;216;Vegan;True;2,80;2025-07-26 10:55:45;Feki;Mango - Couscouspfanne mit Gemüse, Koriander und Minzdip
+1981;1981 g;629903;2025-08-06;2025-08-06;217;Rind;False;4,85;2025-07-26 10:55:45;Feki;Kartoffelgnocchi mit Bolognesesoße
+283;283 g;629897;2025-08-06;2025-08-06;217;Vegan;True;4,35;2025-07-26 10:55:45;Feki;Green Wraps mit Guacamole, Walnüssen und Salat
+1806;1806 g;629001;2025-07-24;2025-07-24;204;Rind;False;3,10;2025-07-18 14:13:56;Austrasse;Cevapcici vom Rind mit hausgemachtem Kräuterdip
+304;304 g;629885;2025-08-06;2025-08-06;217;Vegan;True;3,35;2025-07-26 10:55:45;Feki;Vegane Rote - Bete - Puffer mit Balsamico - Linsengemüse
+625;625 g;629945;2025-08-07;2025-08-07;218;Fleischlos;False;3,65;2025-07-26 10:55:45;Feki;"Wrap ""Mexicana"""
+370;370 g;629939;2025-08-07;2025-08-07;218;Vegan;True;2,35;2025-07-26 10:55:45;Feki;mensaVital: Vollkornspaghetti mit Bolognese von roten Linsen
+2147;2147 g;629927;2025-08-07;2025-08-07;218;Rind;False;4,85;2025-07-26 10:55:45;Feki;Cheese Burger
+511;511 g;629987;2025-08-08;2025-08-08;219;Fleischlos;False;4,10;2025-07-26 10:55:45;Feki;Ravioli Ricotta é Rucola an Tomatenrahmsoße
+1232;1232 g;629969;2025-08-08;2025-08-08;219;Fisch;False;5,35;2025-07-26 10:55:45;Feki;Kabeljaufilet mit Gemüserahmsoße
+442;442 g;629957;2025-08-08;2025-08-08;219;Vegan;True;3,10;2025-07-26 10:55:45;Feki;Gebackene Kartoffelspiralen mit Barbecue - Dip
+477;477 g;629640;2025-07-28;2025-07-28;208;Vegan;True;3,10;2025-07-26 10:58:17;Austrasse;mensaVital: Asiatische Gemüsepfanne mit Tofu und Glasnudeln
+1421;1421 g;629634;2025-07-28;2025-07-28;208;Gefluegel;False;3,80;2025-07-26 10:58:17;Austrasse;Maishähnchenbrustfilet mit Rahmsoße
+221;221 g;629616;2025-07-28;2025-07-28;208;Vegan;True;2,60;2025-07-26 10:58:17;Austrasse;Veganes Linsen - Curry - Dal mit Karotten und Ingwer
+370;370 g;629092;2025-07-25;2025-07-25;205;Fleischlos;True;2,60;2025-07-18 14:13:56;Austrasse;mensaVital: Vollkornspaghetti mit Bolognese von roten Linsen
+283;283 g;629676;2025-07-29;2025-07-29;209;Vegan;True;3,10;2025-07-26 10:58:17;Austrasse;mensaVital: Tagliatelle mit Lauch - Creme - Soße und gehackten Walnüssen
+888;888 g;629670;2025-07-29;2025-07-29;209;Gefluegel;False;4,75;2025-07-26 10:58:17;Austrasse;Kebabteller vom Maishähnchen
+675;675 g;629664;2025-07-29;2025-07-29;209;Fleischlos;False;2,60;2025-07-26 10:58:17;Austrasse;Polenta mit Spinat und Mozzarella
+636;636 g;629706;2025-07-30;2025-07-30;210;Vegan;True;2,80;2025-07-26 10:58:17;Austrasse;mensaVital: Kichererbsen - Gemüse - Curry mit Basmatireis
+376;376 g;629700;2025-07-30;2025-07-30;210;Vegan;True;4,10;2025-07-26 10:58:17;Austrasse;Spicy Asia Burger
+1040;1040 g;629682;2025-07-30;2025-07-30;210;Gefluegel;False;3,80;2025-07-26 10:58:17;Austrasse;Maishähnchenkeule mit Ingwer und Chili
+375;375 g;629736;2025-07-31;2025-07-31;211;Vegan;True;3,10;2025-07-26 10:58:17;Austrasse;Bunte Gemüse Ebly - Pfanne
+798;798 g;629724;2025-07-31;2025-07-31;211;Fleischlos;True;3,35;2025-07-26 10:58:17;Austrasse;Kartoffelgnocchi - Gemüsepfanne mit Sahnesoße
+1359;1359 g;629718;2025-07-31;2025-07-31;211;Gefluegel;False;3,35;2025-07-26 10:58:17;Austrasse;Maishähnchenbrust im Panko - Mantel
+1547;1547 g;629778;2025-08-01;2025-08-01;212;Vegan;False;3,80;2025-07-26 10:58:17;Austrasse;Vegane Chili Cheese fries
+308;308 g;629071;2025-07-25;2025-07-25;205;Vegan;True;2,35;2025-07-18 14:13:56;Austrasse;Weiße Bohnen Pasta mit Rosmarin und Zitrone
+429;429 g;629772;2025-08-01;2025-08-01;212;Vegan;True;3,35;2025-07-26 10:58:17;Austrasse;Falafelbällchen auf Couscous Gemüse
+498;498 g;629760;2025-08-01;2025-08-01;212;Fleischlos;True;2,35;2025-07-26 10:58:17;Austrasse;"Spaghetti ""Arrabbiata"" - Vegan möglich"
+363;363 g;629826;2025-08-04;2025-08-04;215;Vegan;True;4,45;2025-07-26 10:58:17;Austrasse;"Spaghetti ""Pfifferlinge & Kirschtomaten"""
+247;247 g;629814;2025-08-04;2025-08-04;215;Vegan;True;3,35;2025-07-26 10:58:17;Austrasse;Süßkartoffel - Amaranth - Bratling mit Tomatensalsa
+1352;1352 g;629790;2025-08-04;2025-08-04;215;Schwein;False;3,65;2025-07-26 10:58:17;Austrasse;Cordon bleu vom Schwein
+310;310 g;629862;2025-08-05;2025-08-05;216;Vegan;True;4,10;2025-07-26 10:58:17;Austrasse;Crunchy Vegan Burger
+797;797 g;629838;2025-08-05;2025-08-05;216;Schwein;False;3,10;2025-07-26 10:58:17;Austrasse;Currywurst
+407;407 g;629832;2025-08-05;2025-08-05;216;Vegan;True;2,80;2025-07-26 10:58:17;Austrasse;Mango - Couscouspfanne mit Gemüse, Koriander und Minzdip
+325;325 g;629910;2025-08-06;2025-08-06;217;Fleischlos;True;4,85;2025-07-26 10:58:17;Austrasse;Riesenrösti mit Gemüse - Pfifferlingragout - Vegan möglich
+626;626 g;629892;2025-08-06;2025-08-06;217;Vegan;True;2,80;2025-07-26 10:58:17;Austrasse;mensaVital: Kichererbsen - Gemüse - Curry mit Basmatireis
+1422;1422 g;629064;2025-07-25;2025-07-25;205;Fleischlos;False;3,80;2025-07-18 14:13:56;Austrasse;Käsespätzle mit Röstzwiebeln
+2524;2524 g;629880;2025-08-06;2025-08-06;217;Schwein;False;4,85;2025-07-26 10:58:17;Austrasse;Holzfällersteak mit Speck, Zwiebeln und Champignons
+370;370 g;629940;2025-08-07;2025-08-07;218;Vegan;True;2,35;2025-07-26 10:58:17;Austrasse;mensaVital: Vollkornspaghetti mit Bolognese von roten Linsen
+1209;1209 g;629934;2025-08-07;2025-08-07;218;Fleischlos;False;3,10;2025-07-26 10:58:17;Austrasse;Dampfkartoffeln mit hausgemachtem Schnittlauchquark
+2159;2159 g;629928;2025-08-07;2025-08-07;218;Rind;False;4,85;2025-07-26 10:58:17;Austrasse;Cheese Burger
+508;508 g;629988;2025-08-08;2025-08-08;219;Fleischlos;False;4,10;2025-07-26 10:58:17;Austrasse;Ravioli Ricotta é Rucola an Tomatenrahmsoße
+459;459 g;629976;2025-08-08;2025-08-08;219;Vegan;True;3,80;2025-07-26 10:58:17;Austrasse;Glasnudelsalat mit Tofu und Erdnussdressing
+442;442 g;629958;2025-08-08;2025-08-08;219;Vegan;True;3,10;2025-07-26 10:58:17;Austrasse;Gebackene Kartoffelspiralen mit Barbecue - Dip
+469;469 g;629639;2025-07-28;2025-07-28;208;Vegan;True;3,10;2025-07-26 10:58:19;Feki;mensaVital: Asiatische Gemüsepfanne mit Tofu und Glasnudeln
+1720;1720 g;629633;2025-07-28;2025-07-28;208;Gefluegel;False;3,80;2025-07-26 10:58:19;Feki;Maishähnchenbrustfilet mit Rahmsoße
+221;221 g;629615;2025-07-28;2025-07-28;208;Vegan;True;2,60;2025-07-26 10:58:19;Feki;Veganes Linsen - Curry - Dal mit Karotten und Ingwer
+260;260 g;628818;2025-07-18;2025-07-18;198;Vegan;True;3,35;2025-07-18 14:13:57;Feki;Grünkohl - Hanfbratling mit veganem Kräuterdip und Salatgarnitur
+1372;1372 g;629669;2025-07-29;2025-07-29;209;Gefluegel;False;4,75;2025-07-26 10:58:19;Feki;Kebabteller vom Maishähnchen
+693;693 g;629663;2025-07-29;2025-07-29;209;Fleischlos;False;2,60;2025-07-26 10:58:19;Feki;Polenta mit Spinat und Mozzarella
+362;362 g;629645;2025-07-29;2025-07-29;209;Vegan;True;2,80;2025-07-26 10:58:19;Feki;"Vegane Currywurst ""Classic Style"""
+194;194 g;629711;2025-07-30;2025-07-30;210;Vegan;True;3,10;2025-07-26 10:58:19;Feki;Grünkohl - Hanfbratling mit Salatgarnitur
+1208;1208 g;629693;2025-07-30;2025-07-30;210;Fleischlos;False;3,10;2025-07-26 10:58:19;Feki;Dampfkartoffeln mit hausgemachtem Schnittlauchquark
+1040;1040 g;629681;2025-07-30;2025-07-30;210;Gefluegel;False;3,80;2025-07-26 10:58:19;Feki;Maishähnchenkeule mit Ingwer und Chili
+378;378 g;629735;2025-07-31;2025-07-31;211;Vegan;True;3,10;2025-07-26 10:58:19;Feki;Bunte Gemüse Ebly - Pfanne
+385;385 g;629729;2025-07-31;2025-07-31;211;Fleischlos;True;4,85;2025-07-26 10:58:19;Feki;"Sautierte Pfifferlinge mit Wellenbandnudeln ""AOP Style"""
+1360;1360 g;629717;2025-07-31;2025-07-31;211;Gefluegel;False;3,35;2025-07-26 10:58:19;Feki;Maishähnchenbrust im Panko - Mantel
+1457;1457 g;629783;2025-08-01;2025-08-01;212;Fisch;False;5,15;2025-07-26 10:58:19;Feki;mensaVital: Seelachs in der Kräutereihülle auf Dijon - Senfsoße und Möhrengemüse, dazu Kartoffeln
+169;169 g;636899;2025-07-18;2025-07-18;198;Vegan;False;1,50;2025-07-18 14:13:56;Austrasse;Kartoffelsuppe mit Wirsing
+4277;4277 g;628811;2025-07-18;2025-07-18;198;Schwein;False;3,65;2025-07-18 14:13:57;Feki;Schweinelendchen mit Paprikarahmsoße
+498;498 g;629759;2025-08-01;2025-08-01;212;Fleischlos;True;2,35;2025-07-26 10:58:19;Feki;"Spaghetti ""Arrabbiata"" - Vegan möglich"
+1431;1431 g;629753;2025-08-01;2025-08-01;212;Gefluegel;False;3,80;2025-07-26 10:58:19;Feki;Geschnetzeltes von der Maishähnchenbrust in Rahm
+248;248 g;629813;2025-08-04;2025-08-04;215;Vegan;True;3,35;2025-07-26 10:58:19;Feki;Süßkartoffel - Amaranth - Bratling mit Tomatensalsa
+601;601 g;629807;2025-08-04;2025-08-04;215;Fleischlos;True;3,10;2025-07-26 10:58:19;Feki;"Gebackene Kartoffeltaschen ""Kräuterfrischkäse"" mit Salatgarnitur"
+1352;1352 g;629789;2025-08-04;2025-08-04;215;Schwein;False;3,65;2025-07-26 10:58:19;Feki;Cordon bleu vom Schwein
+1412;1412 g;629849;2025-08-05;2025-08-05;216;Fleischlos;False;3,80;2025-07-26 10:58:19;Feki;Käsespätzle mit Röstzwiebeln
+1204;1204 g;629843;2025-08-05;2025-08-05;216;Gefluegel;False;4,45;2025-07-26 10:58:19;Feki;Putenpfanne Peking
+420;420 g;629831;2025-08-05;2025-08-05;216;Vegan;True;2,80;2025-07-26 10:58:19;Feki;Mango - Couscouspfanne mit Gemüse, Koriander und Minzdip
+1981;1981 g;629903;2025-08-06;2025-08-06;217;Rind;False;4,85;2025-07-26 10:58:19;Feki;Kartoffelgnocchi mit Bolognesesoße
+283;283 g;629897;2025-08-06;2025-08-06;217;Vegan;True;4,35;2025-07-26 10:58:19;Feki;Green Wraps mit Guacamole, Walnüssen und Salat
+1149;1149 g;628804;2025-07-18;2025-07-18;198;Fisch;False;3,80;2025-07-18 14:13:58;Feki;Seelachsfilet mit Dillrahmsoße
+304;304 g;629885;2025-08-06;2025-08-06;217;Vegan;True;3,35;2025-07-26 10:58:19;Feki;Vegane Rote - Bete - Puffer mit Balsamico - Linsengemüse
+625;625 g;629945;2025-08-07;2025-08-07;218;Fleischlos;False;3,65;2025-07-26 10:58:19;Feki;"Wrap ""Mexicana"""
+370;370 g;629939;2025-08-07;2025-08-07;218;Vegan;True;2,35;2025-07-26 10:58:19;Feki;mensaVital: Vollkornspaghetti mit Bolognese von roten Linsen
+2147;2147 g;629927;2025-08-07;2025-08-07;218;Rind;False;4,85;2025-07-26 10:58:19;Feki;Cheese Burger
+511;511 g;629987;2025-08-08;2025-08-08;219;Fleischlos;False;4,10;2025-07-26 10:58:19;Feki;Ravioli Ricotta é Rucola an Tomatenrahmsoße
+1232;1232 g;629969;2025-08-08;2025-08-08;219;Fisch;False;5,35;2025-07-26 10:58:19;Feki;Kabeljaufilet mit Gemüserahmsoße
+442;442 g;629957;2025-08-08;2025-08-08;219;Vegan;True;3,10;2025-07-26 10:58:19;Feki;Gebackene Kartoffelspiralen mit Barbecue - Dip
+245;245 g;628895;2025-07-21;2025-07-21;201;Vegan;True;2,60;2025-07-18 14:13:58;Feki;Sojagyros mit Ajvar
+393;393 g;628874;2025-07-21;2025-07-21;201;Fleischlos;True;3,10;2025-07-18 14:13:58;Feki;Kürbis - Chiasamenröstling mit Limetten - Joghurtdip
+544;544 g;628860;2025-07-21;2025-07-21;201;Schwein;False;2,80;2025-07-18 14:13:58;Feki;Hacksteak mit Bratensoße
+304;304 g;628944;2025-07-22;2025-07-22;202;Vegan;True;2,60;2025-07-18 14:13:58;Feki;mensaVital: Pennenudeln mit Favabohnen, Paprika und Sonnenblumenkerne
+1904;1904 g;628937;2025-07-22;2025-07-22;202;Schwein;False;4,85;2025-07-18 14:13:58;Feki;"Griechischer Teller ""Kreta"" mit Gyros, Calamari, Bifteki und Tsatsiki"
+433;433 g;628923;2025-07-22;2025-07-22;202;Fleischlos;True;3,35;2025-07-18 14:13:58;Feki;Frühlingsrolle mit Salatgarnitur
+2923;2923 g;628979;2025-07-23;2025-07-23;203;Schwein;False;3,80;2025-07-18 14:13:58;Feki;"Schweinerückensteak ""Berner Art"""
+222;222 g;628972;2025-07-23;2025-07-23;203;Fleischlos;True;3,35;2025-07-18 14:13:58;Feki;Vegetarisches Schnitzel mit Zitrone und Salatgarnitur
+848;848 g;628840;2025-07-18;2025-07-18;198;Fleischlos;False;3,10;2025-07-18 14:13:56;Austrasse;Bunte Nudeln mit Hirtenkäse
+351;351 g;628965;2025-07-23;2025-07-23;203;Vegan;False;2,60;2025-07-18 14:13:58;Feki;Bunte Kartoffel - Gemüsepfanne
+261;261 g;629028;2025-07-24;2025-07-24;204;Vegan;True;3,35;2025-07-18 14:13:58;Feki;Gefüllte vegane Paprikaschote mit Tomatensoße
+1176;1176 g;629021;2025-07-24;2025-07-24;204;Fleischlos;False;4,10;2025-07-18 14:13:58;Feki;Sommerlicher Nudelsalat mit Mozzarellakugeln
+1806;1806 g;629000;2025-07-24;2025-07-24;204;Rind;False;3,10;2025-07-18 14:13:58;Feki;Cevapcici vom Rind mit hausgemachtem Kräuterdip
+585;585 g;629077;2025-07-25;2025-07-25;205;Fleischlos;True;3,35;2025-07-18 14:13:58;Feki;"Sommerlicher Salatteller mit zwei Kartoffeltaschen ""Kräuter - Frischkäse"""
+308;308 g;629070;2025-07-25;2025-07-25;205;Vegan;True;2,35;2025-07-18 14:13:58;Feki;Weiße Bohnen Pasta mit Rosmarin und Zitrone
+830;830 g;629056;2025-07-25;2025-07-25;205;Fisch;False;5,60;2025-07-18 14:13:58;Feki;Norwegisches Lachsfilet auf Ratatouillegemüse
+477;477 g;629640;2025-07-28;2025-07-28;208;Vegan;True;3,10;2025-07-26 10:52:55;Austrasse;mensaVital: Asiatische Gemüsepfanne mit Tofu und Glasnudeln
+1421;1421 g;629634;2025-07-28;2025-07-28;208;Gefluegel;False;3,80;2025-07-26 10:52:55;Austrasse;Maishähnchenbrustfilet mit Rahmsoße
+221;221 g;629616;2025-07-28;2025-07-28;208;Vegan;True;2,60;2025-07-26 10:52:55;Austrasse;Veganes Linsen - Curry - Dal mit Karotten und Ingwer
+245;245 g;628896;2025-07-21;2025-07-21;201;Vegan;True;2,60;2025-07-18 14:13:56;Austrasse;Sojagyros mit Ajvar
+283;283 g;629676;2025-07-29;2025-07-29;209;Vegan;True;3,10;2025-07-26 10:52:55;Austrasse;mensaVital: Tagliatelle mit Lauch - Creme - Soße und gehackten Walnüssen
+888;888 g;629670;2025-07-29;2025-07-29;209;Gefluegel;False;4,75;2025-07-26 10:52:55;Austrasse;Kebabteller vom Maishähnchen
+675;675 g;629664;2025-07-29;2025-07-29;209;Fleischlos;False;2,60;2025-07-26 10:52:55;Austrasse;Polenta mit Spinat und Mozzarella
+636;636 g;629706;2025-07-30;2025-07-30;210;Vegan;True;2,80;2025-07-26 10:52:55;Austrasse;mensaVital: Kichererbsen - Gemüse - Curry mit Basmatireis
+376;376 g;629700;2025-07-30;2025-07-30;210;Vegan;True;4,10;2025-07-26 10:52:55;Austrasse;Spicy Asia Burger
+1040;1040 g;629682;2025-07-30;2025-07-30;210;Gefluegel;False;3,80;2025-07-26 10:52:55;Austrasse;Maishähnchenkeule mit Ingwer und Chili
+375;375 g;629736;2025-07-31;2025-07-31;211;Vegan;True;3,10;2025-07-26 10:52:55;Austrasse;Bunte Gemüse Ebly - Pfanne
+798;798 g;629724;2025-07-31;2025-07-31;211;Fleischlos;True;3,35;2025-07-26 10:52:55;Austrasse;Kartoffelgnocchi - Gemüsepfanne mit Sahnesoße
+1359;1359 g;629718;2025-07-31;2025-07-31;211;Gefluegel;False;3,35;2025-07-26 10:52:55;Austrasse;Maishähnchenbrust im Panko - Mantel
+1547;1547 g;629778;2025-08-01;2025-08-01;212;Vegan;False;3,80;2025-07-26 10:52:55;Austrasse;Vegane Chili Cheese fries
+338;338 g;628889;2025-07-21;2025-07-21;201;Vegan;True;2,10;2025-07-18 14:13:56;Austrasse;Spaghetti mit Tomatensoße
+429;429 g;629772;2025-08-01;2025-08-01;212;Vegan;True;3,35;2025-07-26 10:52:55;Austrasse;Falafelbällchen auf Couscous Gemüse
+498;498 g;629760;2025-08-01;2025-08-01;212;Fleischlos;True;2,35;2025-07-26 10:52:55;Austrasse;"Spaghetti ""Arrabbiata"" - Vegan möglich"
+363;363 g;629826;2025-08-04;2025-08-04;215;Vegan;True;4,45;2025-07-26 10:52:55;Austrasse;"Spaghetti ""Pfifferlinge & Kirschtomaten"""
+247;247 g;629814;2025-08-04;2025-08-04;215;Vegan;True;3,35;2025-07-26 10:52:55;Austrasse;Süßkartoffel - Amaranth - Bratling mit Tomatensalsa
+1352;1352 g;629790;2025-08-04;2025-08-04;215;Schwein;False;3,65;2025-07-26 10:52:55;Austrasse;Cordon bleu vom Schwein
+310;310 g;629862;2025-08-05;2025-08-05;216;Vegan;True;4,10;2025-07-26 10:52:55;Austrasse;Crunchy Vegan Burger
+797;797 g;629838;2025-08-05;2025-08-05;216;Schwein;False;3,10;2025-07-26 10:52:55;Austrasse;Currywurst
+407;407 g;629832;2025-08-05;2025-08-05;216;Vegan;True;2,80;2025-07-26 10:52:55;Austrasse;Mango - Couscouspfanne mit Gemüse, Koriander und Minzdip
+325;325 g;629910;2025-08-06;2025-08-06;217;Fleischlos;True;4,85;2025-07-26 10:52:55;Austrasse;Riesenrösti mit Gemüse - Pfifferlingragout - Vegan möglich
+626;626 g;629892;2025-08-06;2025-08-06;217;Vegan;True;2,80;2025-07-26 10:52:55;Austrasse;mensaVital: Kichererbsen - Gemüse - Curry mit Basmatireis
+1225;1225 g;628854;2025-07-21;2025-07-21;201;Gefluegel;False;4,35;2025-07-18 14:13:56;Austrasse;"Chicken Nuggets ""Honey - B.B.Q."""
+2524;2524 g;629880;2025-08-06;2025-08-06;217;Schwein;False;4,85;2025-07-26 10:52:55;Austrasse;Holzfällersteak mit Speck, Zwiebeln und Champignons
+370;370 g;629940;2025-08-07;2025-08-07;218;Vegan;True;2,35;2025-07-26 10:52:55;Austrasse;mensaVital: Vollkornspaghetti mit Bolognese von roten Linsen
+1209;1209 g;629934;2025-08-07;2025-08-07;218;Fleischlos;False;3,10;2025-07-26 10:52:55;Austrasse;Dampfkartoffeln mit hausgemachtem Schnittlauchquark
+2159;2159 g;629928;2025-08-07;2025-08-07;218;Rind;False;4,85;2025-07-26 10:52:55;Austrasse;Cheese Burger
+508;508 g;629988;2025-08-08;2025-08-08;219;Fleischlos;False;4,10;2025-07-26 10:52:55;Austrasse;Ravioli Ricotta é Rucola an Tomatenrahmsoße
+459;459 g;629976;2025-08-08;2025-08-08;219;Vegan;True;3,80;2025-07-26 10:52:55;Austrasse;Glasnudelsalat mit Tofu und Erdnussdressing
+442;442 g;629958;2025-08-08;2025-08-08;219;Vegan;True;3,10;2025-07-26 10:52:55;Austrasse;Gebackene Kartoffelspiralen mit Barbecue - Dip
+469;469 g;629639;2025-07-28;2025-07-28;208;Vegan;True;3,10;2025-07-26 10:52:58;Feki;mensaVital: Asiatische Gemüsepfanne mit Tofu und Glasnudeln
+1720;1720 g;629633;2025-07-28;2025-07-28;208;Gefluegel;False;3,80;2025-07-26 10:52:58;Feki;Maishähnchenbrustfilet mit Rahmsoße
+221;221 g;629615;2025-07-28;2025-07-28;208;Vegan;True;2,60;2025-07-26 10:52:58;Feki;Veganes Linsen - Curry - Dal mit Karotten und Ingwer
+280;280 g;628945;2025-07-22;2025-07-22;202;Vegan;True;2,60;2025-07-18 14:13:56;Austrasse;mensaVital: Pennenudeln mit Favabohnen, Paprika und Sonnenblumenkerne
+1372;1372 g;629669;2025-07-29;2025-07-29;209;Gefluegel;False;4,75;2025-07-26 10:52:58;Feki;Kebabteller vom Maishähnchen
+693;693 g;629663;2025-07-29;2025-07-29;209;Fleischlos;False;2,60;2025-07-26 10:52:58;Feki;Polenta mit Spinat und Mozzarella
+362;362 g;629645;2025-07-29;2025-07-29;209;Vegan;True;2,80;2025-07-26 10:52:58;Feki;"Vegane Currywurst ""Classic Style"""
+194;194 g;629711;2025-07-30;2025-07-30;210;Vegan;True;3,10;2025-07-26 10:52:58;Feki;Grünkohl - Hanfbratling mit Salatgarnitur
+1208;1208 g;629693;2025-07-30;2025-07-30;210;Fleischlos;False;3,10;2025-07-26 10:52:58;Feki;Dampfkartoffeln mit hausgemachtem Schnittlauchquark
+1040;1040 g;629681;2025-07-30;2025-07-30;210;Gefluegel;False;3,80;2025-07-26 10:52:58;Feki;Maishähnchenkeule mit Ingwer und Chili
+378;378 g;629735;2025-07-31;2025-07-31;211;Vegan;True;3,10;2025-07-26 10:52:58;Feki;Bunte Gemüse Ebly - Pfanne
+385;385 g;629729;2025-07-31;2025-07-31;211;Fleischlos;True;4,85;2025-07-26 10:52:58;Feki;"Sautierte Pfifferlinge mit Wellenbandnudeln ""AOP Style"""
+1360;1360 g;629717;2025-07-31;2025-07-31;211;Gefluegel;False;3,35;2025-07-26 10:52:58;Feki;Maishähnchenbrust im Panko - Mantel
+1457;1457 g;629783;2025-08-01;2025-08-01;212;Fisch;False;5,15;2025-07-26 10:52:58;Feki;mensaVital: Seelachs in der Kräutereihülle auf Dijon - Senfsoße und Möhrengemüse, dazu Kartoffeln
+3485;3485 g;628931;2025-07-22;2025-07-22;202;Rind;False;5,15;2025-07-18 14:13:56;Austrasse;"Rindergeschnetzeltes ""Provencial"""
+498;498 g;629759;2025-08-01;2025-08-01;212;Fleischlos;True;2,35;2025-07-26 10:52:58;Feki;"Spaghetti ""Arrabbiata"" - Vegan möglich"
+1431;1431 g;629753;2025-08-01;2025-08-01;212;Gefluegel;False;3,80;2025-07-26 10:52:58;Feki;Geschnetzeltes von der Maishähnchenbrust in Rahm
+248;248 g;629813;2025-08-04;2025-08-04;215;Vegan;True;3,35;2025-07-26 10:52:58;Feki;Süßkartoffel - Amaranth - Bratling mit Tomatensalsa
+601;601 g;629807;2025-08-04;2025-08-04;215;Fleischlos;True;3,10;2025-07-26 10:52:58;Feki;"Gebackene Kartoffeltaschen ""Kräuterfrischkäse"" mit Salatgarnitur"
+1352;1352 g;629789;2025-08-04;2025-08-04;215;Schwein;False;3,65;2025-07-26 10:52:58;Feki;Cordon bleu vom Schwein
+1412;1412 g;629849;2025-08-05;2025-08-05;216;Fleischlos;False;3,80;2025-07-26 10:52:58;Feki;Käsespätzle mit Röstzwiebeln
+1204;1204 g;629843;2025-08-05;2025-08-05;216;Gefluegel;False;4,45;2025-07-26 10:52:58;Feki;Putenpfanne Peking
+420;420 g;629831;2025-08-05;2025-08-05;216;Vegan;True;2,80;2025-07-26 10:52:58;Feki;Mango - Couscouspfanne mit Gemüse, Koriander und Minzdip
+1981;1981 g;629903;2025-08-06;2025-08-06;217;Rind;False;4,85;2025-07-26 10:52:58;Feki;Kartoffelgnocchi mit Bolognesesoße
+283;283 g;629897;2025-08-06;2025-08-06;217;Vegan;True;4,35;2025-07-26 10:52:58;Feki;Green Wraps mit Guacamole, Walnüssen und Salat
+267;267 g;628910;2025-07-22;2025-07-22;202;Vegan;True;4,10;2025-07-18 14:13:56;Austrasse;"Veganer Burger ""Italian Style"""
+304;304 g;629885;2025-08-06;2025-08-06;217;Vegan;True;3,35;2025-07-26 10:52:58;Feki;Vegane Rote - Bete - Puffer mit Balsamico - Linsengemüse
+625;625 g;629945;2025-08-07;2025-08-07;218;Fleischlos;False;3,65;2025-07-26 10:52:58;Feki;"Wrap ""Mexicana"""
+370;370 g;629939;2025-08-07;2025-08-07;218;Vegan;True;2,35;2025-07-26 10:52:58;Feki;mensaVital: Vollkornspaghetti mit Bolognese von roten Linsen
+2147;2147 g;629927;2025-08-07;2025-08-07;218;Rind;False;4,85;2025-07-26 10:52:58;Feki;Cheese Burger
+511;511 g;629987;2025-08-08;2025-08-08;219;Fleischlos;False;4,10;2025-07-26 10:52:58;Feki;Ravioli Ricotta é Rucola an Tomatenrahmsoße
+1232;1232 g;629969;2025-08-08;2025-08-08;219;Fisch;False;5,35;2025-07-26 10:52:58;Feki;Kabeljaufilet mit Gemüserahmsoße
+442;442 g;629957;2025-08-08;2025-08-08;219;Vegan;True;3,10;2025-07-26 10:52:58;Feki;Gebackene Kartoffelspiralen mit Barbecue - Dip
+477;477 g;629640;2025-07-28;2025-07-28;208;Vegan;True;3,10;2025-07-26 10:55:43;Austrasse;mensaVital: Asiatische Gemüsepfanne mit Tofu und Glasnudeln
+1421;1421 g;629634;2025-07-28;2025-07-28;208;Gefluegel;False;3,80;2025-07-26 10:55:43;Austrasse;Maishähnchenbrustfilet mit Rahmsoße
+221;221 g;629616;2025-07-28;2025-07-28;208;Vegan;True;2,60;2025-07-26 10:55:43;Austrasse;Veganes Linsen - Curry - Dal mit Karotten und Ingwer

@@ -17,7 +17,7 @@ logging.basicConfig(handlers=[handler], level=logging.DEBUG)
 
 logger = logging.getLogger("mensa_scraper")
 
-database = tinydb.TinyDB("day_menu_entries.json", sort_keys=True, indent=2, separators=(',', ': '))
+database = tinydb.TinyDB("data/day_menu_entries.json", sort_keys=True, indent=2, separators=(',', ': '))
 
 def get_site_content(url):
     logger.debug("Fetching site content...", extra={"url": url})
@@ -163,7 +163,7 @@ def parse_day_menu(html, site_id):
 def convert_database_to_csv():
     logger.debug("Converting database to CSV...")
     all_entries = database.all()
-    csv_file = "day_menu_entries.csv"
+    csv_file = "data/day_menu_entries.csv"
 
     with open(csv_file, mode="w", newline="", encoding="utf-8") as file:
         writer = csv.DictWriter(file, fieldnames=all_entries[0].keys(), delimiter=';')
