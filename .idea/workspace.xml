@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a8ba417-692e-4664-838d-18f94e0e75a8" name="Changes" comment="feat: get information from HTML">
+    <list default="true" id="1a8ba417-692e-4664-838d-18f94e0e75a8" name="Changes" comment="feat: pretty database json">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +16,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "debuglevel"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/debuglevel/StudierendenwerkWuerzburg-Mensa-Fetcher.git",
+    "accountId": "fea79e41-4d3d-43a1-9e5b-9b2018394092"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="302rOhIK22J66Y3davQA4VqlwOI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -30,6 +41,7 @@
   "keyToString": {
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -39,6 +51,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\marck\__Stuff\Repositories\StudierendenwerkWuerzburg-CO2-Fetcher\data" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="StudierendenwerkWuerzburg-CO2-Fetcher" />
@@ -85,7 +102,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1752836479201</updated>
-      <workItem from="1752836480277" duration="2744000" />
+      <workItem from="1752836480277" duration="7634000" />
+      <workItem from="1753519967465" duration="356000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -111,7 +129,47 @@
       <option name="project" value="LOCAL" />
       <updated>1752839108526</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: save into tinydb">
+      <option name="closed" value="true" />
+      <created>1752839486039</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1752839486039</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: convert to CSV">
+      <option name="closed" value="true" />
+      <created>1752839681466</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1752839681466</updated>
+    </task>
+    <task id="LOCAL-00006" summary="refactor: naming">
+      <option name="closed" value="true" />
+      <created>1752840606809</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1752840606811</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: add mensa id">
+      <option name="closed" value="true" />
+      <created>1752840879271</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1752840879271</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: pretty database json">
+      <option name="closed" value="true" />
+      <created>1753520320258</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1753520320258</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,9 +179,14 @@
     <MESSAGE value="initial" />
     <MESSAGE value="feat: extract day menus" />
     <MESSAGE value="feat: get information from HTML" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: get information from HTML" />
+    <MESSAGE value="feat: save into tinydb" />
+    <MESSAGE value="feat: convert to CSV" />
+    <MESSAGE value="refactor: naming" />
+    <MESSAGE value="feat: add mensa id" />
+    <MESSAGE value="feat: pretty database json" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: pretty database json" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/StudierendenwerkWuerzburg_CO2_Fetcher$main.coverage" NAME="main Coverage Results" MODIFIED="1752839051876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/StudierendenwerkWuerzburg_CO2_Fetcher$main.coverage" NAME="main Coverage Results" MODIFIED="1753520295057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
